@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Nguyen Van A",
+        "scores": [
+            8,
+            7,
+            9,
+            8,
+            9,
+            8
+        ],
+        "title": "Gi\u1ecfi"
+    },
+    {
+        "name": "Tran Thi B",
+        "scores": [
+            6,
+            7,
+            5,
+            8,
+            7,
+            8
+        ],
+        "title": "Kh\u00e1"
+    },
+    {
+        "name": "Hoang Duc C",
+        "scores": [
+            5,
+            6,
+            6,
+            4,
+            7,
+            8
+        ],
+        "title": "Trung b\u00ecnh"
+    },
+    {
+        "name": "Le Thi D",
+        "scores": [
+            9,
+            8,
+            9,
+            7,
+            8,
+            9
+        ],
+        "title": "Gi\u1ecfi"
+    }
+]

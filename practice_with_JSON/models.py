@@ -100,14 +100,14 @@ class AnimeDatabase:
         if top:
             return self.anime_item_list[top]
 
-    def sort_item_by_date(self, top=None):
-        self.anime_item_list = sorted(
-            self.anime_item_list,
-            key=lambda x: format_date(x.release_date),
-            reverse=True,
-        )
-        if top:
-            return self.anime_item_list[top]
+    # def sort_item_by_date(self, top=None):
+    #     self.anime_item_list = sorted(
+    #         self.anime_item_list,
+    #         key=lambda x: format_date(x.release_date),
+    #         reverse=True,
+    #     )
+    #     if top:
+    #         return self.anime_item_list[top]
 
     def get_title_list(self):
         titles = [anime["title"] for anime in self.anime_dict_data]
