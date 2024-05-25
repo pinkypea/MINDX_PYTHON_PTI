@@ -30,3 +30,30 @@ print(x)
 txt1 = "1 + 1 + 1 = 3"
 y = txt1.replace("+", "-", 1)
 print(y)
+
+ho = "Dao"
+ten_dem = "Trung"
+ten = "Kien"
+print(ho + ten_dem + ten)
+
+# Bài 1: Cho chuỗi sau, yêu cầu người dùng nhập vào 1 chuỗi, kiểm tra xem chuỗi đó có phải là chuỗi con trong đề bài hay không
+txt = "TRONGTUONG,NHANKIET,DANGPHUONG,QUOCAN,GIALINH,HOANGHUNG"
+x = input("Nhập vào 1 chuỗi: ")
+if x in txt:
+    print("Có")
+else:
+    print("Không")
+
+# Bài 2: Cho username:password là MindX:12345. Yêu cầu người dùng nhập vào username và password, kiểm tra xem có khớp với đề bài hay không. Nếu khớp username và password thì thông báo ĐĂNG NHẬP THÀNH CÔNG.
+account = "MindX:12345"
+user_and_pass = account.split(":")
+print(user_and_pass)
+username = user_and_pass[0]
+password = user_and_pass[1]
+
+input_username = input("Nhập vào username: ")
+input_password = input("Nhập vào password: ")
+if input_username == username and input_password == password:
+    print("ĐĂNG NHẬP THÀNH CÔNG!!!")
+else:
+    print("ĐĂNG NHẬP THẤT BẠI!!!")
